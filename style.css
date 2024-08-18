@@ -1,0 +1,130 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/* header */
+header {
+  background-color: #427AA1;
+  color: #f8f7f9;
+}
+
+/* text */
+h1, h2, h3, #money {
+  color: #001c5f;
+  font-family: 'Courier New', monospace;
+  font-weight: bolder;
+}
+
+h1 {
+  font-size: 100px;
+  padding-top: 5%;
+  text-align: center;
+}
+
+h2 {
+  font-size: 50px;
+  padding: 5%;
+}
+
+h3 {
+  font-size: 40px;
+  padding-top: 5%;
+}
+
+p {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 5%;
+}
+
+/* containers and inputs */
+.question {
+  padding: 0 5% 5% 5%;
+}
+
+.start {
+  color: #001c5f;
+  background-color: #f8f7f9;
+  border-radius: 10px;
+  font-family: 'Monaco', monospace;
+  font-size: 30px;
+  padding: 10px;
+  margin: 5% 10% 2% 10%;
+}
+
+.labels {
+  font-size: 25px;
+  margin-top: 5%;
+}
+
+.cost-input, .totalCostContainer, #budget, #days, #plane, #todo {
+  font-family: 'Monaco', monospace;
+  font-size: 20px;
+  width: 100px;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.cost-input {
+  font-size: 15px;
+  width: 80px;
+}
+
+.totalCostContainer {
+  font-size: 40px;
+}
+
+#money {
+  font-size: 25px;
+  margin-top: 5%;
+}
+
+#todo {
+  width: unset;
+}
+
+/* nav bar */
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  padding: 2em;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: #f8f7f9;
+  font-size: 2.5em;
+  padding: 5em;
+  font-family: 'Monaco', monospace;
+  font-weight: bold;
+}
+
+li a:hover {
+  background-color: #f8f7f9;
+  color: #427AA1;
+}
+
+/* button */
+#oneButton {
+  background-color: #001c5f;
+  color: #f8f7f9;
+  border-radius: 10px;
+  font-family: 'Monaco', monospace;
+  padding: 15px;
+  font-size: 30px;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
